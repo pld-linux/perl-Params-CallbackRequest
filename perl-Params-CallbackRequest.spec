@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Params
-%define	pnam	CallbackRequest
+%define		pdir	Params
+%define		pnam	CallbackRequest
 Summary:	Params::CallbackRequest - functional and object-oriented callback architecture
 Summary(pl):	Params::CallbackRequest - architektóra callbacków funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
