@@ -6,15 +6,15 @@
 %define		pdir	Params
 %define		pnam	CallbackRequest
 Summary:	Params::CallbackRequest - functional and object-oriented callback architecture
-Summary(pl):	Params::CallbackRequest - architektóra callbacków funkcyjnych i obiektowych
+Summary(pl):	Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
-Version:	1.13
+Version:	1.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	69183af032eebccd5a7d734ab084b823
+# Source0-md5:	5ec47d6e9184435a5a826123b9aa1e5e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
