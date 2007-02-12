@@ -6,7 +6,7 @@
 %define		pdir	Params
 %define		pnam	CallbackRequest
 Summary:	Params::CallbackRequest - functional and object-oriented callback architecture
-Summary(pl):	Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
+Summary(pl.UTF-8):   Params::CallbackRequest - architektura callbackÃ³w funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
 Version:	1.15
 Release:	1
@@ -33,12 +33,12 @@ in subclasses of Params::Callback. Callbacks are triggered either for
 every call to the Params::CallbackRequest request() method, or by
 specially named keys in the parameters to request().
 
-%description -l pl
+%description -l pl.UTF-8
 Params::CallbackRequest dostarcza funkcyjne i zorientowane obiektowo
-wywo³ania zwrotne (callbacki) dla parametrów metod i funkcji.
-Callbacki mog± byæ referencjami do kodu przekazanymi do konstruktora
+wywoÅ‚ania zwrotne (callbacki) dla parametrÃ³w metod i funkcji.
+Callbacki mogÄ… byÄ‡ referencjami do kodu przekazanymi do konstruktora
 new(), albo metodami zdefiniowanymi w podklasach Params::Callback.
-Wywo³ania zwrotne s± wyzwalane albo dla ka¿dego wywo³ania metody
+WywoÅ‚ania zwrotne sÄ… wyzwalane albo dla kaÅ¼dego wywoÅ‚ania metody
 request() klasy Params::CallbackRequest, albo przez specjalnie nazwane
 klucze w parametrach dla request().
 
