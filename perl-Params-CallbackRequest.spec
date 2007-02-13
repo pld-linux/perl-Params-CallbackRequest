@@ -6,7 +6,7 @@
 %define		pdir	Params
 %define		pnam	CallbackRequest
 Summary:	Params::CallbackRequest - functional and object-oriented callback architecture
-Summary(pl.UTF-8):   Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
+Summary(pl.UTF-8):	Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
 Version:	1.15
 Release:	1
