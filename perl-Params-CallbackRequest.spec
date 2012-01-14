@@ -8,13 +8,13 @@
 Summary:	Params::CallbackRequest - functional and object-oriented callback architecture
 Summary(pl.UTF-8):	Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
-Version:	1.19
+Version:	1.20
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Params/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f186de85520a70c4e7bf85a53e8c51df
+# Source0-md5:	5836fbaaab326391886c696e8d6a56e5
 URL:		http://search.cpan.org/dist/Params-CallbackRequest/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -65,7 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes README.md
 %{perl_vendorlib}/Params/*.pm
 %{perl_vendorlib}/Params/CallbackRequest
 %{_mandir}/man3/*
