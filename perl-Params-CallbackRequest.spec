@@ -8,7 +8,7 @@ Summary:	Params::CallbackRequest - functional and object-oriented callback archi
 Summary(pl.UTF-8):	Params::CallbackRequest - architektura callbacków funkcyjnych i obiektowych
 Name:		perl-Params-CallbackRequest
 Version:	1.20
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
